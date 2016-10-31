@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1600;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+  header {
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+  }
+    .users {
+      width: 300px;
+      height: 520px;
+      float: left;
+      margin-right: 4px;
+      text-align: center;
+      overflow: auto;
+        .photo {
+          width: 95%;
+        }
+        .name > p {
+          padding-bottom: 0px;
+          text-transform: uppercase;
+          border-bottom: 1px solid green;            display: inline-block;
+        }
+        .email {
+          color: lightgrey;
+          text-transform: uppercase;
+        }
+        .address > p {
+          margin: 0px;
+        }
+        .phone > p {
+          margin: 0px;
+        }
+        .SSN {
+          filter: blur(3px);
+          color: green;
+        }
+        .SSN:hover {
+         filter: none;
+        }
+    }
+}
